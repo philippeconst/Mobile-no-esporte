@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f1;
+}
+
+header {
+  background-color: #193c6c;
+
+  max-width: 1440px;
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+header img {
+  max-width: 164px;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+.hero .imgHero-2 {
+  position: relative;
+
+  z-index: -99;
+}
+
+.uniforme {
+  background-image: url("https://public-escola-mobile.s3.amazonaws.com/emails/bg-uniformes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 32px 20px;
+
+  margin-top: 164px;
+}
+
+.uniformeFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 224px;
+}
+
+.uniformeContainer {
+  align-items: flex-end !important;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  background-color: #ddd1cb;
+}
+
+.uniformeContent {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+
+.uniformeContent img {
+  max-width: 100%;
+
+  position: relative;
+  bottom: 96px;
+}
+
+.uniformeContent h2 {
+  color: #fff;
+
+  font-size: 124px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.blue {
+  background-color: #0090c7 !important;
+  border-radius: 360px;
+
+  align-items: center;
+  display: flex;
+  gap: 12px;
+
+  padding: 12px 16px;
+}
+
+.pink {
+  background-color: #ee4166 !important;
+  border-radius: 360px;
+
+  align-items: center;
+  display: flex;
+  gap: 12px;
+
+  padding: 12px 16px;
+}
+
+.purple {
+  background-color: #804d9e !important;
+  border-radius: 360px;
+
+  align-items: center;
+  display: flex;
+  gap: 12px;
+
+  padding: 12px 16px;
+}
+
+.backgroundRadius span {
+  color: #fff;
+
+  font-family: 28px;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px) {
+  .uniformeFlex {
+    gap: 72px;
+  }
+
+  .uniforme {
+    margin-top: 72px;
+  }
+
+  .uniformeContainer {
+    align-items: center !important;
+    flex-direction: column;
+  }
+
+  .uniformeContent {
+    flex-direction: column;
+  }
+
+  .uniformeContent img {
+    bottom: 0 !important;
+    position: none !important;
+  }
+}
+
+footer {
+  background-color: #193c6c;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 96px 0px 0 0;
+
+  text-align: center;
+
+  margin-top: 96px;
+}
+
+footer .item-1 {
+  width: 100%;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .item-1 h2 {
+  color: #fff;
+
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 991px) {
+  footer .item-1 h2 {
+    font-size: 24px;
+  }
+}
+
+footer .item-1 p {
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 991px) {
+  footer .item-1 p {
+    font-size: 14px;
+  }
+}
+
+footer .item-1 .inputFooter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 48px;
+}
+
+input[type="text"] {
+  width: 364px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 991px) {
+  input[type="text"] {
+    width: 100%;
+  }
+}
+
+button {
+  color: #fff;
+
+  background-color: #e98e32;
+
+  border-radius: 360px;
+  border: none;
+
+  cursor: pointer;
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  width: 164px;
+  height: 52px;
+
+  outline: none;
+
+  margin-top: 24px;
+}
+
+footer .item-2 {
+  background: #fff;
+  border-radius: 100px 100px 0px 0px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 64px 0 64px 0;
+
+  margin-top: 124px;
+}
+
+footer .item-2 span {
+  color: #193c6c;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 140%;
+}
